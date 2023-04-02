@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+    <title>Deep Potatoes Blog</title>
+	<style type="text/css">
+			body .inner-header-overlay {
+		                filter: alpha(opacity=72);
+		                opacity: .72;
+		            }
+
+		            body .owl-item.active .single-slide:after {
+		                filter: alpha(opacity=100);
+		                opacity: 1;
+		            }
+
+			</style>
+
+	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+body {
+    font-family: Merriweather, sans-serif;
+    color: #434343;
+}
+
+.header1 {
+    font-family: Archivo Narrow, sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    line-height: 67.5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+    text-decoration-color: #434343;
+    color: #434343;
+}
+
+.site-header {
+    background-color: white;
+}
+
+.site-description {
+    text-align: center;
+}
+
+.branding-center {
+    text-align: center;
+}
+
+.custom-logo {
+    display: inline;
+    vertical-align: middle;
+}
+
+a.plain-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.inner-banner {
+    cursor: pointer;
+}
+
+
+
+#a-rude-awakening.inner-banner {
+    color: #FFFFFF;
+    height: 180px;
+    vertical-align: middle;
+
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("a-rude-awakening/post_photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 0px;
+    background-position-x: center;
+
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+#advent-take-2.inner-banner {
+    color: #FFFFFF;
+    height: 180px;
+    vertical-align: middle;
+
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("advent-take-2/post_photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 0px;
+    background-position-x: center;
+
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+#meteorological-miracles.inner-banner {
+    color: #FFFFFF;
+    height: 180px;
+    vertical-align: middle;
+
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("meteorological-miracles/post_photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 0px;
+    background-position-x: center;
+
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+#alive-and-kicking.inner-banner {
+    color: #FFFFFF;
+    height: 180px;
+    vertical-align: middle;
+
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("alive-and-kicking/post_photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 0px;
+    background-position-x: center;
+
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+#famous-jews-and-the-british-museum.inner-banner {
+    color: #FFFFFF;
+    height: 180px;
+    vertical-align: middle;
+
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("famous-jews-and-the-british-museum/post_photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 0px;
+    background-position-x: center;
+
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+#im-looking-forward-to.inner-banner {
+    color: #FFFFFF;
+    height: 180px;
+    vertical-align: middle;
+
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("im-looking-forward-to/post_photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 0px;
+    background-position-x: center;
+
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.entry-title { 
+    font-family: Archivo Narrow, sans-serif;
+    font-weight: 700;
+}
+
+.wp-post-image {
+    display: block;
+    width: 85%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+#content {
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+}
+
+.site-footer {
+    background-color: white;
+}
+
+.site-footer h4 {
+    font-size: 10px;
+}
+</style>
+<link rel='stylesheet' id='galway-lite-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Archivo%20Narrow:400,400i,700,700i|Merriweather:400,400i' type='text/css' media='all' />
+
+
+		<!-- GA Google Analytics @ https://m0n.co/ga -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162162121-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-162162121-1');
+		</script>
+		<style type="text/css" id="wp-custom-css">
+			.icon-sidr {
+	display: none;
+}		</style>
+		</head>
+
+<body class="post-template-default single single-post postid-51 single-format-standard wp-custom-logo left-sidebar home-content-not-enabled">
+
+    <div class="preloader">
+        <div class="preloader-wrapper">
+            <div id="top" class="spinner spinner-1">
+                <div class="spinner-plane"></div>
+            </div>
+            <div id="middle" class="spinner spinner-2">
+                <div class="spinner-plane"></div>
+            </div>
+            <div id="bottom" class="spinner spinner-3">
+                <div class="spinner-plane"></div>
+            </div>
+        </div>
+    </div>
+<!-- full-screen-layout/boxed-layout -->
+<div id="page" class="site site-bg full-screen-layout">
+    <div class="top-bar secondary-bgcolor">
+        <div class="container">
+            <div class="row">
+                                            </div>
+        </div>
+    </div> <!--    Topbar Ends-->
+    <header id="masthead" class="site-header" role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="site-branding">
+                        <div class="twp-site-branding">
+                            <div class="branding-center">
+                                <a href="" class="custom-logo-link" rel="home"><img width="120" height="111" src="res/potato-thumb1.png" class="custom-logo" alt="Potato Logo" /></a>                                <span class="site-title primary-font">
+                                    <a href="" rel="home" class="header1">
+                                        Deep Potatoes                                    </a>
+                                </span>
+                                                                    <p class="site-description">
+                                        Thoughts, musings and spiritual spuds</p>
+                                                                </div>
+                        </div>
+                    </div>
+                    <!-- .site-branding -->
+                </div>
+            </div>
+        </div>
+
+        <div class="top-header primary-bgcolor">
+            <div class="container">
+                <nav class="main-navigation" role="navigation">
+                    <span class="icon-sidr">
+                        <div class="offcanvas-navigation">
+                            <label id="widgets-nav" class="switch">
+                                <input type="checkbox" name="side-nav" />
+                                <div></div>
+                            </label>
+                        </div>
+                    </span>
+                    <span class="icon-search">
+                        <i class="ion-ios-search-strong"></i>
+                    </span>
+                </nav><!-- #site-navigation -->
+            </div>
+
+        </div>
+    </header>
+
+    <div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+
+
+
+        <!-- Innerpage Header Begins Here -->
+
+        <a href="./a-rude-awakening/index.html" class="plain-link" rel="bookmark">
+        <div id="a-rude-awakening"
+             onclick="window.location.href = './a-rude-awakening/index.html';"
+             class="wrapper page-inner-title inner-banner primary-bgcolor data-bg"
+             style="width: 100%;"
+             data-background="a-rude-awakening/post_photo.jpeg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h1 class="entry-title">A Rude Awakening</h1>
+                            <span style="font-style: italic;">A 'God-incidence'</span>
+                            <div class="title-seperator secondary-bgcolor"></div>
+                                <div class="inner-meta-info">
+                                    <span class="posted-on secondary-font">
+                                        Posted On
+                                        <a href="./a-rude-awakening/index.html" class='plain-link' rel="bookmark">
+                                        26 March 2021
+                                        </a></span>
+                                    <br />
+                                </div>
+                               </div>
+                    </div>
+                </div>
+            <div class="inner-header-overlay"></div>
+        </div>
+        </a>
+
+        <!-- Innerpage Header Ends Here -->
+
+
+
+        <!-- Innerpage Header Begins Here -->
+
+        <a href="./advent-take-2/index.html" class="plain-link" rel="bookmark">
+        <div id="advent-take-2"
+             onclick="window.location.href = './advent-take-2/index.html';"
+             class="wrapper page-inner-title inner-banner primary-bgcolor data-bg"
+             style="width: 100%;"
+             data-background="advent-take-2/post_photo.jpeg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h1 class="entry-title">Advent #2</h1>
+                            <span style="font-style: italic;">Thoughts about Jesus' return</span>
+                            <div class="title-seperator secondary-bgcolor"></div>
+                                <div class="inner-meta-info">
+                                    <span class="posted-on secondary-font">
+                                        Posted On
+                                        <a href="./advent-take-2/index.html" class='plain-link' rel="bookmark">
+                                        13 December 2020
+                                        </a></span>
+                                    <br />
+                                </div>
+                               </div>
+                    </div>
+                </div>
+            <div class="inner-header-overlay"></div>
+        </div>
+        </a>
+
+        <!-- Innerpage Header Ends Here -->
+
+
+
+        <!-- Innerpage Header Begins Here -->
+
+        <a href="./meteorological-miracles/index.html" class="plain-link" rel="bookmark">
+        <div id="meteorological-miracles"
+             onclick="window.location.href = './meteorological-miracles/index.html';"
+             class="wrapper page-inner-title inner-banner primary-bgcolor data-bg"
+             style="width: 100%;"
+             data-background="meteorological-miracles/post_photo.jpeg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h1 class="entry-title">Meteorological Miracles</h1>
+                            <span style="font-style: italic;">Weather miracles I've witnessed</span>
+                            <div class="title-seperator secondary-bgcolor"></div>
+                                <div class="inner-meta-info">
+                                    <span class="posted-on secondary-font">
+                                        Posted On
+                                        <a href="./meteorological-miracles/index.html" class='plain-link' rel="bookmark">
+                                        13 November 2020
+                                        </a></span>
+                                    <br />
+                                </div>
+                               </div>
+                    </div>
+                </div>
+            <div class="inner-header-overlay"></div>
+        </div>
+        </a>
+
+        <!-- Innerpage Header Ends Here -->
+
+
+
+        <!-- Innerpage Header Begins Here -->
+
+        <a href="./alive-and-kicking/index.html" class="plain-link" rel="bookmark">
+        <div id="alive-and-kicking"
+             onclick="window.location.href = './alive-and-kicking/index.html';"
+             class="wrapper page-inner-title inner-banner primary-bgcolor data-bg"
+             style="width: 100%;"
+             data-background="alive-and-kicking/post_photo.jpeg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h1 class="entry-title">Alive and Kicking</h1>
+                            <span style="font-style: italic;">Jesus' resurrection body and thoughts on Heaven</span>
+                            <div class="title-seperator secondary-bgcolor"></div>
+                                <div class="inner-meta-info">
+                                    <span class="posted-on secondary-font">
+                                        Posted On
+                                        <a href="./alive-and-kicking/index.html" class='plain-link' rel="bookmark">
+                                        24 April 2020
+                                        </a></span>
+                                    <br />
+                                </div>
+                               </div>
+                    </div>
+                </div>
+            <div class="inner-header-overlay"></div>
+        </div>
+        </a>
+
+        <!-- Innerpage Header Ends Here -->
+
+
+
+        <!-- Innerpage Header Begins Here -->
+
+        <a href="./famous-jews-and-the-british-museum/index.html" class="plain-link" rel="bookmark">
+        <div id="famous-jews-and-the-british-museum"
+             onclick="window.location.href = './famous-jews-and-the-british-museum/index.html';"
+             class="wrapper page-inner-title inner-banner primary-bgcolor data-bg"
+             style="width: 100%;"
+             data-background="famous-jews-and-the-british-museum/post_photo.jpeg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h1 class="entry-title">Famous Jews and the British Museum</h1>
+                            <span style="font-style: italic;">Video of evidence for the Bible</span>
+                            <div class="title-seperator secondary-bgcolor"></div>
+                                <div class="inner-meta-info">
+                                    <span class="posted-on secondary-font">
+                                        Posted On
+                                        <a href="./famous-jews-and-the-british-museum/index.html" class='plain-link' rel="bookmark">
+                                        4 April 2020
+                                        </a></span>
+                                    <br />
+                                </div>
+                               </div>
+                    </div>
+                </div>
+            <div class="inner-header-overlay"></div>
+        </div>
+        </a>
+
+        <!-- Innerpage Header Ends Here -->
+
+
+
+        <!-- Innerpage Header Begins Here -->
+
+        <a href="./im-looking-forward-to/index.html" class="plain-link" rel="bookmark">
+        <div id="im-looking-forward-to"
+             onclick="window.location.href = './im-looking-forward-to/index.html';"
+             class="wrapper page-inner-title inner-banner primary-bgcolor data-bg"
+             style="width: 100%;"
+             data-background="im-looking-forward-to/post_photo.jpeg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h1 class="entry-title">I&#8217;m looking forward to&#8230;</h1>
+                            <span style="font-style: italic;">Reflections on hope for the future</span>
+                            <div class="title-seperator secondary-bgcolor"></div>
+                                <div class="inner-meta-info">
+                                    <span class="posted-on secondary-font">
+                                        Posted On
+                                        <a href="./im-looking-forward-to/index.html" class='plain-link' rel="bookmark">
+                                        28 March 2020
+                                        </a></span>
+                                    <br />
+                                </div>
+                               </div>
+                    </div>
+                </div>
+            <div class="inner-header-overlay"></div>
+        </div>
+        </a>
+
+        <!-- Innerpage Header Ends Here -->
+
+
+            
+        </main><!-- #main -->
+    </div><!-- #primary -->
+
+		</section>
+    </div>
+</aside><!-- #secondary --></div><!-- #content -->
+<footer id="colophon" class="site-footer" role="contentinfo">
+                    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="site-info text-center">
+                        <h4 class="site-copyright secondary-textcolor secondary-font">
+                            Copyright Deep Potatoes - all rights reserved.                         </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<div class="scroll-up alt-bgcolor">
+    <i class="ion-ios-arrow-up text-light"></i>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
+<script type="text/javascript">
+BGLinks.version = "NIVUK";
+BGLinks.clickTooltip = false;
+BGLinks.linkVerses();
+</script>
+</body>
+</html>
